@@ -1,8 +1,10 @@
-
-print("Answer the following questions about yourself")
+print("answer the following questions")
 name = input("What is your name?")
+phrase = input("What is your favorite phrase?")
 age = input("How old are you?")
-hobby = input("What do you do in your free time?")
-siblings = input("How many siblings do you have?")
+food = input("What is your favroite food")
 
-print(f'{name.title()} was asked to introduce themselves to their new classmates. They stood up from their seat and said "Hello everyone! My name is {name.title()}. I am {age.lower()} years old and my hobby is {hobby.lower()}. I have {siblings.lower()} sibling(s)')
+print(f"""It was {name.title()}'s first day of school and they wanted to make an impression on people.
+The teacher asked them all to stand up and introduce themselves.
+{name.title()} said "Hello, my name is {name.title()}. I am {age.lower()} years old. {food.title()} is my favorite food and my favorite phrase is {phrase.upper()}"
+The class erupted in laughter and {name.title()} was sent to the principals office""")

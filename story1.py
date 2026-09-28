@@ -14,6 +14,8 @@ thing = input("Enter an object e.g. tin of beans, hairdrier:\n>")
 
 action = input("Enter a action e.g. running, eating:\n>")
 
+print() 
+
 print(f"""Once upon a time...
-{name.title()} red the {description} {animal} was {action},
-when a {colour} {thing} whizzed past his {bodypart}.""")
+{name.title()} the {description} {animal} was {action},
+when a {colour} {thing} whizzed past his {bodypart}.""") 
